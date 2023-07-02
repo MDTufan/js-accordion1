@@ -1,0 +1,28 @@
+.one {
+    text-align: center;
+    color: deeppink;
+}
+
+.accordion {
+    background-color: #1c023983;
+    color: #190404;
+    cursor: pointer;
+    padding: 21px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 1s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #543c3c; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgba(240, 102, 215, 0.501);
+    overflow: hidden;
+  }
